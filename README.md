@@ -115,6 +115,6 @@ python LogAnalysis.py
                   group by cast(time as date),e.errortrans ) as main) as result
        where result.percents > 1.0; -- get only data error more than 1% here.
     ```
-    
+
 ## Acknowledgments
-    * Some installation guide (links / information) are taken from what I learned in the udacity course.
+  * Some installation guide (links / information) are taken from what I learned in the udacity course.
